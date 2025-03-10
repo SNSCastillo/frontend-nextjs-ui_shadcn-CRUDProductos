@@ -38,6 +38,7 @@ export async function getAllProducts(){
 export async function getOneProduct(id: string){
     // Esto va a recibir datos
     const data = await fetch(`${BACKEND_URL}/api/products/${id}`,{
+        cache: 'no-store'
     })
     // Retornamos esos datos
     return await data.json();

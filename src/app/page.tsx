@@ -11,7 +11,6 @@ export const dynamic = "force-dynamic";
 
 // Esto esta renderizado en el servidor
 async function HomePage() {
-
   const productos = await getAllProducts();
   console.log(productos);
   

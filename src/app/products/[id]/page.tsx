@@ -13,7 +13,7 @@ interface Props{
 
 // Recibimos como parámetro un id
 async function ProductDetailPage({params}: Props) {
-    const product = await getOneProduct(params?.id)    
+    const product = await getOneProduct(params.id)    
     console.log(product);
 
     return (

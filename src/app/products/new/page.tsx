@@ -14,7 +14,8 @@ interface Props {
 async function ProductsNewPage({params}: Props) {
     // Obtenemos un producto con el id
     // Esto está bien porque estamos para el lado servidor
-    const product = await getOneProduct(params.id)
+
+    const product = await getOneProduct(params.id);
     console.log(product);
 
   return (
