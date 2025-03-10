@@ -1,0 +1,7 @@
+Se instaló next:  npx create-next-app frontend
+Se desactivó la telemetría: npx next telemetry disable
+Se instaló ui.shadcn: npx shadcn@latest init
+
+Los botones, label, input y card todo se agarró en la shadcn
+
+Se usa React Hook Form para manejar los estados de los formularios
