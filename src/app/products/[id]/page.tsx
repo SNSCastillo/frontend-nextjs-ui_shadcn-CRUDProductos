@@ -4,7 +4,6 @@ import { Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card';
 import {buttonVariants} from '@/components/ui/button'
 import Link from 'next/link';
 
-// Para tipar
 interface Props{
     params: {
         id: string,
